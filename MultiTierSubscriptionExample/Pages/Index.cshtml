@@ -1,0 +1,16 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+<div>
+    You are allowed to have <strong>@(Model.Feature.ZeroAsUnlimited ? "Unlimited" : Model.Feature.Value)</strong>
+    projects for your <strong>@Model.Plan.Title</strong> subscription
+    which is <strong>@($"{Model.Plan.PricePerMonth:C2}/month") or @($"{Model.Plan.PricePerYear:C2}/annually")</strong>
+</div>
