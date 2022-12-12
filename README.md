@@ -1,4 +1,4 @@
-This post was written for the <a href="https://csadvent.christmas/">C# Advent</a> (2022 Edition).
+This post was written for the <a href="https://csadvent.christmas/">C# Advent</a> (#csadvent - 2022 Edition).
 
 Code meant to compliment the post called 
 <a href="https://www.danylkoweb.com/Blog/creating-multi-tier-subscriptions-using-c-T3">Creating Multi-Tier Subscriptions using C#</a>
